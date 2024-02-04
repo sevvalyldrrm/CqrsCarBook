@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBook.Application.Features.CQRS.Commands.AboutCommands
+namespace CarBook.Application.Features.CQRS.Commands.BannerCommands
 {
-	public class RemoveAboutCommand
+	public class RemoveBannerCommand
 	{
 		public int Id { get; set; }
-		public RemoveAboutCommand(int id ) 
-		{ 
-			Id=id;
+		public RemoveBannerCommand(int id)
+		{
+			Id = id;
 		}
 	}
 }
